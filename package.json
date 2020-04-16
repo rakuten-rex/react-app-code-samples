@@ -28,6 +28,13 @@
     "build": "PUBLIC_URL=/react-app-code-samples/ react-scripts build",
     "postbuild": "PUBLIC_URL=/react-app-code-samples/ react-snap && npm run buid:docs",
     "buid:docs": "rm -rf docs && mv build docs && mkdir -p build/react-app-code-samples && cp -R docs/* build/react-app-code-samples",
+    "build:patch": "npm ci && npm --no-git-tag-version version patch && npm run build:commit && npm run publish:component",
+    "build:minor": "npm ci && npm --no-git-tag-version version minor && npm run build:commit && npm run publish:component",
+    "build:major": "npm ci && npm --no-git-tag-version version major && npm run build:commit && npm run publish:component",
+    "build:commit": "npm run build && npm run commit",
+    "commit": "npm run commit:docs && npm run commit:package",
+    "commit:docs": "git add docs && git commit -m 'Added - Docs for github pages'",
+    "commit:package": "git add package.json package-lock.json && git commit -m 'New version - v'$npm_package_version",
     "serve": "serve -s build",
     "test": "PUBLIC_URL=/react-app-code-samples/ react-scripts test",
     "eject": "PUBLIC_URL=/react-app-code-samples/ react-scripts eject"
