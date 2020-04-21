@@ -21,18 +21,22 @@ export default function Index() {
     }, 
     {
       name: 'Checkbox Group Default',
+      maxWidth: '100%',
       Component: lazy(() => import('./CheckboxGroupDefault'))
     }, 
     {
       name: 'Checkbox Group Checked State',
+      maxWidth: '100%',
       Component: lazy(() => import('./CheckboxGroupChecked'))
     }, 
     {
       name: 'Checkbox Group Disabled State',
+      maxWidth: '100%',
       Component: lazy(() => import('./CheckboxGroupDisabled'))
     }, 
     {
       name: 'Checkbox Group Layout Inline',
+      maxWidth: '100%',
       Component: lazy(() => import('./CheckboxGroupInline'))
     }, 
     {
@@ -41,6 +45,7 @@ export default function Index() {
     }, 
     {
       name: 'Checkbox Group Theme',
+      maxWidth: '100%',
       Component: lazy(() => import('./CheckboxGroupTheme'))
     }, 
   ]);
