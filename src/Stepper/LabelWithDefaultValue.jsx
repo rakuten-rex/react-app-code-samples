@@ -11,7 +11,7 @@ export default function MyComponent() {
       counter={10}
       minusLabel='minus button'
       plusLabel='plus button'
-      disabled={true}
+      disabled={false}
     />
   );
 }

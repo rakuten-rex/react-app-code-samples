@@ -34,7 +34,7 @@ export default function Index() {
       maxWidth: '15%',
     },
     {
-      name: 'Stepper With Default Value',
+      name: 'Stepper Label With Default Value',
       Component: lazy(() => import('./LabelWithDefaultValue')),
       maxWidth: '15%',
     },
