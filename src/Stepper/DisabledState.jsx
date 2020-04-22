@@ -8,6 +8,8 @@ export default function MyComponent() {
       name='name_age'
       minusLabel='minus button'
       plusLabel='plus button'
+      disabled={true}
+      state='disabled'
     />
   );
 }
