@@ -1,5 +1,5 @@
 import React from 'react';
-import PasswordLabelHelper from '@rakuten-rex/password';
+import PasswordLabelHelper from '@rakuten-rex/password/PasswordLabelHelper';
 
 export default function MyComponent() {
   return (
