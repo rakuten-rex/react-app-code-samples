@@ -1,5 +1,5 @@
 import React from 'react';
-import TextareaLabelHelper from '@rakuten-rex/textarea';
+import TextareaLabelHelper from '@rakuten-rex/textarea/TextareaLabelHelper';
 
 export default function MyComponent() {
   return (
