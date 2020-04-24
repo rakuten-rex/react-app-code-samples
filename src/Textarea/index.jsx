@@ -5,43 +5,79 @@ export default function Index() {
   return Page('Textarea', [
     {
       name: 'Default',
-      Component: lazy(() => import('./Default'))
+      Component: lazy(() => import('./Default')),
     },
     {
       name: 'Disabled',
-      Component: lazy(() => import('./Disabled'))
+      Component: lazy(() => import('./Disabled')),
     },
     {
       name: 'Error',
-      Component: lazy(() => import('./Error'))
+      Component: lazy(() => import('./Error')),
     },
     {
       name: 'Valid',
-      Component: lazy(() => import('./Valid'))
+      Component: lazy(() => import('./Valid')),
     },
     {
       name: 'Theme',
-      Component: lazy(() => import('./Theme'))
+      Component: lazy(() => import('./Theme')),
     },
     {
       name: 'Textarea Label Helper Default',
-      Component: lazy(() => import('./TextareaLabelHelperDefault'))
+      Component: lazy(() => import('./TextareaLabelHelperDefault')),
     },
     {
       name: 'Textarea Label Helper Disabled',
-      Component: lazy(() => import('./TextareaLabelHelperDisabled'))
+      Component: lazy(() => import('./TextareaLabelHelperDisabled')),
     },
     {
       name: 'Textarea Label Helper Error',
-      Component: lazy(() => import('./TextareaLabelHelperError'))
+      Component: lazy(() => import('./TextareaLabelHelperError')),
     },
     {
       name: 'Textarea Label Helper Valid',
-      Component: lazy(() => import('./TextareaLabelHelperValid'))
+      Component: lazy(() => import('./TextareaLabelHelperValid')),
     },
     {
       name: 'Textarea Label Helper Theme',
-      Component: lazy(() => import('./TextareaLabelHelperTheme'))
+      Component: lazy(() => import('./TextareaLabelHelperTheme')),
+    },
+    {
+      name: 'Disabled',
+      Component: lazy(() => import('./Disabled')),
+    },
+    {
+      name: 'Error',
+      Component: lazy(() => import('./Error')),
+    },
+    {
+      name: 'Valid',
+      Component: lazy(() => import('./Valid')),
+    },
+    {
+      name: 'Theme',
+      Component: lazy(() => import('./Theme')),
+    },
+    {
+      name: 'Textarea Label Helper Default',
+      Component: lazy(() => import('./TextareaLabelHelperDefault')),
+    },
+    {
+      name: 'Textarea Label Helper Disabled',
+      Component: lazy(() => import('./TextareaLabelHelperDisabled')),
+    },
+    {
+      name: 'Textarea Label Helper Error',
+      Component: lazy(() => import('./TextareaLabelHelperError')),
+    },
+    {
+      name: 'Textarea Label Helper Valid',
+      Component: lazy(() => import('./TextareaLabelHelperValid')),
+    },
+    {
+      name: 'Textarea Label Helper Theme',
+      Component: lazy(() => import('./TextareaLabelHelperTheme')),
     },
   ]);
 }
