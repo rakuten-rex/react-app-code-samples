@@ -4,12 +4,12 @@ import PasswordLabel from '@rakuten-rex/password';
 export default function MyComponent() {
   return (
     <PasswordLabel
-      placeholder='Password'
-      htmlFor='password'
-      label='Label'
-      labelId='labelId'
-      name='Password'
-      value='Default Value'
+      placeholder="Password"
+      htmlFor="password"
+      label="Label"
+      labelId="labelId"
+      name="Password"
+      value="Default Value"
     />
   );
 }
