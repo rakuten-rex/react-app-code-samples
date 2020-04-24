@@ -54,6 +54,8 @@
     ]
   },
   "devDependencies": {
+    "@rakuten-rex/eslint-config-rex-react-component": "1.5.1",
+    "eslint-plugin-prettier": "3.1.1",
     "node-sass": "4.13.1",
     "react-router-dom": "5.1.2",
     "react-snap": "1.23.0",
