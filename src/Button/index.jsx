@@ -5,11 +5,11 @@ export default function Index() {
   return Page('Button', [
     {
       name: 'Default',
-      Component: lazy(() => import('./Default'))
+      Component: lazy(() => import('./Default')),
     },
     {
       name: 'OutlineButton',
-      Component: lazy(() => import('./OutlineButton'))
+      Component: lazy(() => import('./OutlineButton')),
     },
   ]);
 }
