@@ -44,7 +44,7 @@ export default function Page(main, list) {
           </Container>
         </Route>
         {/* Components variations routes */}
-        {list.map(({ name, Component, maxWidth = '25%' }) => {
+        {list.map(({ name, Component, maxWidth = '25%', file = 'Default' }) => {
           const width = parseInt(window.innerWidth) <= 425 ? '100%' : maxWidth;
           const githubUrl =
             'https://github.com/rakuten-rex/react-app-code-samples/blob/master/src';
@@ -69,7 +69,7 @@ export default function Page(main, list) {
                   </Col>
                   <Col xs="2">
                     <a
-                      href={`${githubUrl}/${main}/${name}.jsx`}
+                      href={`${githubUrl}/${main}/${file}.jsx`}
                       style={{ float: 'right' }}
                     >
                       <img

@@ -6,10 +6,12 @@ export default function Index() {
     {
       name: 'Default',
       Component: lazy(() => import('./Default')),
+      file: 'Default',
     },
     {
-      name: 'OutlineButton',
+      name: 'Outline Button',
       Component: lazy(() => import('./OutlineButton')),
+      file: 'OutlineButton',
     },
   ]);
 }
