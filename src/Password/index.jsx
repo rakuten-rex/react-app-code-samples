@@ -6,126 +6,82 @@ export default function Index() {
     {
       name: 'Default',
       Component: lazy(() => import('./Default')),
+      file: 'Default',
     },
     {
       name: 'Disabled',
       Component: lazy(() => import('./Disabled')),
+      file: 'Disabled',
     },
     {
       name: 'Error',
       Component: lazy(() => import('./Error')),
+      file: 'Error',
     },
     {
       name: 'Valid',
       Component: lazy(() => import('./Valid')),
+      file: 'Valid',
     },
     {
       name: 'Required',
       Component: lazy(() => import('./Required')),
+      file: 'Required',
     },
     {
       name: 'Show Password',
       Component: lazy(() => import('./ShowPassword')),
+      file: 'ShowPassword',
     },
     {
       name: 'With Default Value',
       Component: lazy(() => import('./WithDefaultValue')),
+      file: 'WithDefaultValue',
     },
     {
       name: 'Theme',
       Component: lazy(() => import('./Theme')),
+      file: 'Theme',
     },
     {
       name: 'PasswordLabelHelper Default',
       Component: lazy(() => import('./PasswordLabelHelperDefault')),
+      file: 'PasswordLabelHelperDefault',
     },
     {
       name: 'PasswordLabelHelper Disabled',
       Component: lazy(() => import('./PasswordLabelHelperDisabled')),
+      file: 'PasswordLabelHelperDisabled',
     },
     {
       name: 'PasswordLabelHelper Error',
       Component: lazy(() => import('./PasswordLabelHelperError')),
+      file: 'PasswordLabelHelperError',
     },
     {
       name: 'PasswordLabelHelper Valid',
       Component: lazy(() => import('./PasswordLabelHelperValid')),
+      file: 'PasswordLabelHelperValid',
     },
     {
       name: 'PasswordLabelHelper Required',
       Component: lazy(() => import('./PasswordLabelHelperRequired')),
+      file: 'PasswordLabelHelperRequired',
     },
     {
       name: 'PasswordLabelHelper ShowPassword',
       Component: lazy(() => import('./PasswordLabelHelperShowPassword')),
+      file: 'PasswordLabelHelperShowPassword',
     },
     {
       name: 'PasswordLabelHelper With Default Value',
       Component: lazy(() => import('./PasswordLabelHelperWithDefaultValue')),
+      file: 'PasswordLabelHelperWithDefaultValue',
     },
     {
       name: 'PasswordLabelHelper Theme',
       Component: lazy(() => import('./PasswordLabelHelperTheme')),
-    },
-    {
-      name: 'Disabled',
-      Component: lazy(() => import('./Disabled')),
-    },
-    {
-      name: 'Error',
-      Component: lazy(() => import('./Error')),
-    },
-    {
-      name: 'Valid',
-      Component: lazy(() => import('./Valid')),
-    },
-    {
-      name: 'Required',
-      Component: lazy(() => import('./Required')),
-    },
-    {
-      name: 'Show Password',
-      Component: lazy(() => import('./ShowPassword')),
-    },
-    {
-      name: 'With Default Value',
-      Component: lazy(() => import('./WithDefaultValue')),
-    },
-    {
-      name: 'Theme',
-      Component: lazy(() => import('./Theme')),
-    },
-    {
-      name: 'PasswordLabelHelper Default',
-      Component: lazy(() => import('./PasswordLabelHelperDefault')),
-    },
-    {
-      name: 'PasswordLabelHelper Disabled',
-      Component: lazy(() => import('./PasswordLabelHelperDisabled')),
-    },
-    {
-      name: 'PasswordLabelHelper Error',
-      Component: lazy(() => import('./PasswordLabelHelperError')),
-    },
-    {
-      name: 'PasswordLabelHelper Valid',
-      Component: lazy(() => import('./PasswordLabelHelperValid')),
-    },
-    {
-      name: 'PasswordLabelHelper Required',
-      Component: lazy(() => import('./PasswordLabelHelperRequired')),
-    },
-    {
-      name: 'PasswordLabelHelper ShowPassword',
-      Component: lazy(() => import('./PasswordLabelHelperShowPassword')),
-    },
-    {
-      name: 'PasswordLabelHelper With Default Value',
-      Component: lazy(() => import('./PasswordLabelHelperWithDefaultValue')),
-    },
-    {
-      name: 'PasswordLabelHelper Theme',
-      Component: lazy(() => import('./PasswordLabelHelperTheme')),
+      file: 'PasswordLabelHelperTheme',
     },
   ]);
 }
