@@ -1,5 +1,5 @@
-import React from "react";
-import TextFieldLabelHelper from "@rakuten-rex/text-field/TextFieldLabelHelper";
+import React from 'react';
+import TextFieldLabelHelper from '@rakuten-rex/text-field/TextFieldLabelHelper';
 
 export default function MyComponent() {
   return (
