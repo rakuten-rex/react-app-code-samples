@@ -1,5 +1,5 @@
-import React from 'react';
-import TextFieldLabel from '@rakuten-rex/text-field';
+import React from "react";
+import TextFieldLabel from "@rakuten-rex/text-field";
 
 export default function MyComponent() {
   return (
@@ -30,14 +30,14 @@ export default function MyComponent() {
         "--rex-text-field-label-theme-hover-text": "#A2006A",
         "--rex-text-field-label-theme-active-text": "#830056",
         "--rex-text-field-label-theme-error-text": "#9B00EC",
-        "--rex-text-field-label-theme-valid-text": "#0085C7"
+        "--rex-text-field-label-theme-valid-text": "#0085C7",
       }}
-      id='age'
-      name='firstname'
-      placeholder='Placeholder'
-      htmlFor='firstname'
-      label='Label'
-      labelId='labelId'
+      id="age"
+      name="firstname"
+      placeholder="Placeholder"
+      htmlFor="firstname"
+      label="Label"
+      labelId="labelId"
     />
   );
 }

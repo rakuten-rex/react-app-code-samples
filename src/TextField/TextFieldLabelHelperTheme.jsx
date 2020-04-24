@@ -1,5 +1,5 @@
-import React from 'react';
-import TextFieldLabelHelper from '@rakuten-rex/text-field/TextFieldLabelHelper';
+import React from "react";
+import TextFieldLabelHelper from "@rakuten-rex/text-field/TextFieldLabelHelper";
 
 export default function MyComponent() {
   return (
@@ -36,15 +36,15 @@ export default function MyComponent() {
         "--rex-text-field-helper-theme-active-text": "#333333",
         "--rex-text-field-helper-theme-error-text": "#9B00EC",
         "--rex-text-field-helper-theme-valid-text": "#0085C7",
-        "--rex-text-field-helper-theme-disabled-text": "#686868"
+        "--rex-text-field-helper-theme-disabled-text": "#686868",
       }}
-      id='age'
-      name='firstname'
-      placeholder='Placeholder'
-      htmlFor='firstname'
-      label='Label'
-      labelId='labelId'
-      helper='Helper Text'
+      id="age"
+      name="firstname"
+      placeholder="Placeholder"
+      htmlFor="firstname"
+      label="Label"
+      labelId="labelId"
+      helper="Helper Text"
     />
   );
 }
