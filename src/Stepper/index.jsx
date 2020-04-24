@@ -12,17 +12,17 @@ export default function Index() {
       name: 'Stepper Disabled State',
       Component: lazy(() => import('./DisabledState')),
       maxWidth: '15%',
-    }, 
+    },
     {
       name: 'Stepper With Default Value',
       Component: lazy(() => import('./WithDefaultValue')),
       maxWidth: '15%',
-    }, 
+    },
     {
       name: 'Stepper Theme',
       Component: lazy(() => import('./Theme')),
       maxWidth: '15%',
-    },  
+    },
     {
       name: 'Stepper Label Default',
       Component: lazy(() => import('./LabelDefault')),
@@ -42,6 +42,6 @@ export default function Index() {
       name: 'Stepper Label Theme',
       Component: lazy(() => import('./LabelTheme')),
       maxWidth: '15%',
-    }, 
+    },
   ]);
 }

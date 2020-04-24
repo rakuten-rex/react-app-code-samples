@@ -5,10 +5,41 @@ export default function MyComponent() {
   return (
     <RadioGroup
       options={[
-        { "id": "fastestAnimal1", "name": "fastest", "value": "BrownHare", "label": "BrownHare", "checked": true, "disabled": true, "required": false },
-        { "id": "fastestAnimal2", "name": "fastest", "value": "Wildebeest", "label": "Wildebeest", "checked": false, "disabled": true, "required": false }, 
-        { "id": "fastestAnimal3", "name": "fastest", "value": "Cheetah", "label": "Cheetah", "checked": false, "disabled": true, "required": false }, 
-        { "id": "fastestAnimal4", "name": "fastest", "value": "Pronghorn", "label": "Pronghorn", "checked": false, "disabled": true }
+        {
+          id: 'fastestAnimal1',
+          name: 'fastest',
+          value: 'BrownHare',
+          label: 'BrownHare',
+          checked: true,
+          disabled: true,
+          required: false,
+        },
+        {
+          id: 'fastestAnimal2',
+          name: 'fastest',
+          value: 'Wildebeest',
+          label: 'Wildebeest',
+          checked: false,
+          disabled: true,
+          required: false,
+        },
+        {
+          id: 'fastestAnimal3',
+          name: 'fastest',
+          value: 'Cheetah',
+          label: 'Cheetah',
+          checked: false,
+          disabled: true,
+          required: false,
+        },
+        {
+          id: 'fastestAnimal4',
+          name: 'fastest',
+          value: 'Pronghorn',
+          label: 'Pronghorn',
+          checked: false,
+          disabled: true,
+        },
       ]}
     />
   );

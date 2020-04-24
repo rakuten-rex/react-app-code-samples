@@ -4,11 +4,11 @@ import Stepper from '@rakuten-rex/stepper';
 export default function MyComponent() {
   return (
     <Stepper
-      id='age'
-      name='name_age'
+      id="age"
+      name="name_age"
       counter={10}
-      minusLabel='minus button'
-      plusLabel='plus button'
+      minusLabel="minus button"
+      plusLabel="plus button"
     />
   );
 }

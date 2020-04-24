@@ -6,10 +6,10 @@ export default function MyComponent() {
     <Track
       maxsteps={4}
       options={[
-        { "title": "Enter your information", "status": "visited" }, 
-        { "title": "Register service for use", "status": "visited" }, 
-        { "title": "Confirmation", "status": "current" }, 
-        { "title": "Completion", "status": "default" }
+        { title: 'Enter your information', status: 'visited' },
+        { title: 'Register service for use', status: 'visited' },
+        { title: 'Confirmation', status: 'current' },
+        { title: 'Completion', status: 'default' },
       ]}
     />
   );
