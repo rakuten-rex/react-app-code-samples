@@ -13,7 +13,6 @@ export default function Home() {
     'RadioButton',
     'Select',
     'Stepper',
-    'Switch',
     'TextField',
     'Textarea',
     'Track',
