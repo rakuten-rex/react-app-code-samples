@@ -7,6 +7,7 @@ export default function Index() {
       name: 'Default',
       Component: lazy(() => import('./Default')),
       maxWidth: '100%',
+      file: 'Default',
     },
   ]);
 }
