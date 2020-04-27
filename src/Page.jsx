@@ -29,10 +29,10 @@ export default function Page(main, list) {
             <Row key="index">
               <Col>
                 <ul>
-                  {list.map(({ name }) => {
+                  {list.map(({ name, file }) => {
                     return (
-                      <li key={`page-content-${name}`}>
-                        <RouterLink to={`${rootPath}/${main}/${name}`}>
+                      <li key={`page-content-${file}`}>
+                        <RouterLink to={`${rootPath}/${main}/${file}`}>
                           {name}
                         </RouterLink>
                       </li>
@@ -52,7 +52,7 @@ export default function Page(main, list) {
             'https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/mark-github.svg';
 
           return (
-            <Route path={`${rootPath}/${main}/${name}`} key={`route-${name}`}>
+            <Route path={`${rootPath}/${main}/${file}`} key={`route-${file}`}>
               <Container>
                 <Row key="breadcrumbs">
                   <Col>

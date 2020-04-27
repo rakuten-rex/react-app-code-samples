@@ -1,7 +1,33 @@
 {
   "name": "react-app-code-samples",
-  "version": "1.0.0",
-  "private": true,
+  "version": "1.1.0",
+  "main": "src/index.jsx",
+  "scripts": {
+    "start": "PUBLIC_URL=/react-app-code-samples/ react-scripts start",
+    "build": "PUBLIC_URL=/react-app-code-samples/ react-scripts build",
+    "postbuild": "PUBLIC_URL=/react-app-code-samples/ react-snap && npm run buid:docs",
+    "buid:docs": "rm -rf docs && mv build docs && mkdir -p build/react-app-code-samples && cp -R docs/* build/react-app-code-samples",
+    "build:patch": "npm ci && npm --no-git-tag-version version patch && npm run build:commit",
+    "build:minor": "npm ci && npm --no-git-tag-version version minor && npm run build:commit",
+    "build:major": "npm ci && npm --no-git-tag-version version major && npm run build:commit",
+    "build:commit": "npm run build && npm run commit",
+    "commit": "npm run commit:docs && npm run commit:package",
+    "commit:docs": "git add docs && git commit -m 'Added - Docs for github pages'",
+    "commit:package": "git add package.json package-lock.json && git commit -m 'New version - v'$npm_package_version",
+    "serve": "serve -s build",
+    "test": "PUBLIC_URL=/react-app-code-samples/ react-scripts test",
+    "eject": "PUBLIC_URL=/react-app-code-samples/ react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rakuten-rex/react-app-code-samples.git"
+  },
+  "author": "ReX Front-end Components Library Authors (https://github.com/rakuten-rex/react-app-code-samples/graphs/contributors)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rakuten-rex/react-app-code-samples/issues"
+  },
+  "homepage": "https://rakuten-rex.github.io/react-app-code-samples/",
   "dependencies": {
     "@rakuten-rex/button": "1.3.0",
     "@rakuten-rex/checkbox": "1.3.0",
@@ -22,21 +48,13 @@
     "react-dom": "16.13.1",
     "react-scripts": "3.4.1"
   },
-  "scripts": {
-    "start": "PUBLIC_URL=/react-app-code-samples/ react-scripts start",
-    "build": "PUBLIC_URL=/react-app-code-samples/ react-scripts build",
-    "postbuild": "PUBLIC_URL=/react-app-code-samples/ react-snap && npm run buid:docs",
-    "buid:docs": "rm -rf docs && mv build docs && mkdir -p build/react-app-code-samples && cp -R docs/* build/react-app-code-samples",
-    "build:patch": "npm ci && npm --no-git-tag-version version patch && npm run build:commit",
-    "build:minor": "npm ci && npm --no-git-tag-version version minor && npm run build:commit",
-    "build:major": "npm ci && npm --no-git-tag-version version major && npm run build:commit",
-    "build:commit": "npm run build && npm run commit",
-    "commit": "npm run commit:docs && npm run commit:package",
-    "commit:docs": "git add docs && git commit -m 'Added - Docs for github pages'",
-    "commit:package": "git add package.json package-lock.json && git commit -m 'New version - v'$npm_package_version",
-    "serve": "serve -s build",
-    "test": "PUBLIC_URL=/react-app-code-samples/ react-scripts test",
-    "eject": "PUBLIC_URL=/react-app-code-samples/ react-scripts eject"
+  "devDependencies": {
+    "@rakuten-rex/eslint-config-rex-react-component": "1.5.1",
+    "eslint-plugin-prettier": "3.1.1",
+    "node-sass": "4.13.1",
+    "react-router-dom": "5.1.2",
+    "react-snap": "1.23.0",
+    "typescript": "3.8.3"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -52,13 +70,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@rakuten-rex/eslint-config-rex-react-component": "1.5.1",
-    "eslint-plugin-prettier": "3.1.1",
-    "node-sass": "4.13.1",
-    "react-router-dom": "5.1.2",
-    "react-snap": "1.23.0",
-    "typescript": "3.8.3"
   }
 }
