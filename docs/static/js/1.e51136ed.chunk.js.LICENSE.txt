@@ -1,0 +1,8 @@
+/*
+ @license @rakuten-rex/select v1.3.2 2020-04-09
+ SelectLabelHelper/SelectLabelHelper.production.min.js
+
+ Copyright (c) 2018-present, Rakuten, Inc.
+
+ This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
+*/
