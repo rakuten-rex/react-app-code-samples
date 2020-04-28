@@ -83,5 +83,21 @@ export default function Index() {
       Component: lazy(() => import('./LinkButtonTheme')),
       file: 'LinkButtonTheme',
     },
+    {
+      name: 'Pill Link Button',
+      Component: lazy(() => import('./PillLinkButton')),
+      file: 'PillLinkButton',
+    },
+    {
+      name: 'Pill Link Button Html Variations',
+      Component: lazy(() => import('./PillLinkButtonHtmlVariations')),
+      file: 'PillLinkButtonHtmlVariations',
+      maxWidth: '100%',
+    },
+    {
+      name: 'Pill Link Button Theme',
+      Component: lazy(() => import('./PillLinkButtonTheme')),
+      file: 'PillLinkButtonTheme',
+    },
   ]);
 }
