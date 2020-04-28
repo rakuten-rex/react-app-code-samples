@@ -8,8 +8,8 @@ export default function MyComponent() {
   return (
     <div>
       <PillOutlineButton>Button Tag</PillOutlineButton>
-      <PillOutlineButtonInput>Input Tag</PillOutlineButtonInput>{' '}
-      <PillOutlineButtonLink href="/">Link Tag with href</PillOutlineButtonLink>{' '}
+      <PillOutlineButtonInput>Input Tag</PillOutlineButtonInput>
+      <PillOutlineButtonLink href="/">Link Tag with href</PillOutlineButtonLink>
       <PillOutlineButtonDiv>Div Tag</PillOutlineButtonDiv>
     </div>
   );
