@@ -1,0 +1,35 @@
+/*
+ @license @rakuten-rex/button v1.5.0 2020-07-01
+ PillLinkButton/PillLinkButton.production.min.js
+
+ Copyright (c) 2018-present, Rakuten, Inc.
+
+ This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
+*/
+
+/*
+ @license @rakuten-rex/button v1.5.0 2020-07-01
+ PillLinkButton/PillLinkButtonDiv/PillLinkButton/PillLinkButtonDiv.production.min.js
+
+ Copyright (c) 2018-present, Rakuten, Inc.
+
+ This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
+*/
+
+/*
+ @license @rakuten-rex/button v1.5.0 2020-07-01
+ PillLinkButton/PillLinkButtonInput/PillLinkButton/PillLinkButtonInput.production.min.js
+
+ Copyright (c) 2018-present, Rakuten, Inc.
+
+ This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
+*/
+
+/*
+ @license @rakuten-rex/button v1.5.0 2020-07-01
+ PillLinkButton/PillLinkButtonLink/PillLinkButton/PillLinkButtonLink.production.min.js
+
+ Copyright (c) 2018-present, Rakuten, Inc.
+
+ This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
+*/

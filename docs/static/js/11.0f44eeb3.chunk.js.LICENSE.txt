@@ -1,0 +1,26 @@
+/*
+ @license @rakuten-rex/button v1.5.0 2020-07-01
+ OutlineButton/OutlineButton.production.min.js
+
+ Copyright (c) 2018-present, Rakuten, Inc.
+
+ This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
+*/
+
+/*
+ @license @rakuten-rex/button v1.5.0 2020-07-01
+ OutlineButton/OutlineButtonDiv/OutlineButton/OutlineButtonDiv.production.min.js
+
+ Copyright (c) 2018-present, Rakuten, Inc.
+
+ This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
+*/
+
+/*
+ @license @rakuten-rex/button v1.5.0 2020-07-01
+ OutlineButton/OutlineButtonLink/OutlineButton/OutlineButtonLink.production.min.js
+
+ Copyright (c) 2018-present, Rakuten, Inc.
+
+ This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
+*/
