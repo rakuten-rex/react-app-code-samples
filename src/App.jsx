@@ -10,6 +10,7 @@ import Password from './Password';
 import RadioButton from './RadioButton';
 import Select from './Select';
 import Stepper from './Stepper';
+import Switch from './Switch';
 import TextField from './TextField';
 import Textarea from './Textarea';
 import Track from './Track';
@@ -30,6 +31,7 @@ export default function App() {
       <RadioButton />
       <Select />
       <Stepper />
+      <Switch />
       <TextField />
       <Textarea />
       <Track />
