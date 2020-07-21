@@ -37,6 +37,7 @@
     "@rakuten-rex/radio-button": "1.4.0",
     "@rakuten-rex/select": "1.4.0",
     "@rakuten-rex/stepper": "1.6.0",
+    "@rakuten-rex/switch": "1.5.0",
     "@rakuten-rex/text-field": "1.3.0",
     "@rakuten-rex/textarea": "1.3.0",
     "@rakuten-rex/track": "1.3.0",
