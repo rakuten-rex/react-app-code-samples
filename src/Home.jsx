@@ -11,6 +11,7 @@ export default function Home() {
   const pages = [
     'Button',
     'Checkbox',
+    'FormGroup',
     'Grid',
     'Panel',
     'Password',
