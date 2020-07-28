@@ -1,18 +1,34 @@
 import React from 'react';
 import FormGroup from '@rakuten-rex/form-group';
+import TextFieldLabelHelper from '@rakuten-rex/text-field/TextFieldLabelHelper';
 
 export default function MyComponent() {
   return (
-    <FormGroup m={1}>
-      <FormGroup row={true} mr={3}>
-        <input type="text" defaultValue="Element1" readOnly={true} />
+    <>
+      <FormGroup row={true} mr={6}>
+        <TextFieldLabelHelper
+          id="dog"
+          name="element1"
+          htmlFor="element1"
+          label="Label1"
+        />
       </FormGroup>
-      <FormGroup row={true} mr={3}>
-        <input type="text" defaultValue="Element2" readOnly={true} />
+      <FormGroup row={true} mr={6}>
+        <TextFieldLabelHelper
+          id="cat"
+          name="element2"
+          htmlFor="element2"
+          label="Label2"
+        />
       </FormGroup>
       <FormGroup row={true}>
-        <input type="text" defaultValue="Element3" readOnly={true} />
+        <TextFieldLabelHelper
+          id="horse"
+          name="element3"
+          htmlFor="element3"
+          label="Label3"
+        />
       </FormGroup>
-    </FormGroup>
+    </>
   );
 }
