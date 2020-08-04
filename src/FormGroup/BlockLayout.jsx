@@ -1,31 +1,36 @@
 import React from 'react';
 import FormGroup from '@rakuten-rex/form-group';
+import TextFieldLabelHelper from '@rakuten-rex/text-field/TextFieldLabelHelper';
 
 export default function MyComponent() {
   return (
-    <React.Fragment>
-      <FormGroup mb={3}>
-        <label htmlFor="firstName">First Name:</label>
-        <br />
-        <input id="firstName" type="text" defaultValue="First Name" />
+    <>
+      <FormGroup mb={6}>
+        <TextFieldLabelHelper
+          name="firstName1"
+          htmlFor="firstName1"
+          label="First Name"
+        />
       </FormGroup>
-      <FormGroup mb={3}>
-        <label htmlFor="lastName">Last Name:</label>
-        <br />
-        <input id="lastName" type="text" defaultValue="Last Name" />
+      <FormGroup mb={6}>
+        <TextFieldLabelHelper
+          name="lastName1"
+          htmlFor="lastName1"
+          label="Last Name"
+        />
       </FormGroup>
       <FormGroup>
-        <FormGroup mb={3}>
-          <label htmlFor="email">Mail Address:</label>
-          <br />
-          <input id="email" type="text" defaultValue="Mail Address" />
+        <FormGroup mb={6}>
+          <TextFieldLabelHelper name="email" htmlFor="email" label="Email" />
         </FormGroup>
-        <FormGroup mb={3}>
-          <label htmlFor="password">Password:</label>
-          <br />
-          <input id="password" type="text" defaultValue="Password" />
+        <FormGroup mb={6}>
+          <TextFieldLabelHelper
+            name="password"
+            htmlFor="password"
+            label="Password"
+          />
         </FormGroup>
       </FormGroup>
-    </React.Fragment>
+    </>
   );
 }
