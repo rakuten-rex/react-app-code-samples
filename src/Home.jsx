@@ -22,6 +22,7 @@ export default function Home() {
     'TextField',
     'Textarea',
     'Track',
+    'Typography',
   ];
 
   return (
