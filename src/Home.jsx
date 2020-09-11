@@ -6,6 +6,8 @@ import {
 } from 'react-router-dom';
 import { rootPath } from './App';
 import { Row, Container, Col } from '@rakuten-rex/grid/Grid';
+import H1 from '@rakuten-rex/typography/H1';
+import H2 from '@rakuten-rex/typography/H2';
 
 export default function Home() {
   const pages = [
@@ -31,20 +33,22 @@ export default function Home() {
         <Container>
           <Row key="breadcrumbs">
             <Col>
-              <RouterLink to={rootPath}>Home</RouterLink>
+              <RouterLink to={rootPath} className="rex">
+                Home
+              </RouterLink>
             </Col>
           </Row>
           <Row key="title">
             <Col>
-              <h1>
+              <H1 gutterBottom>
                 ReX Front-end Components Library{' '}
                 <small>React Code Samples</small>
-              </h1>
+              </H1>
             </Col>
           </Row>
           <Row key="index">
             <Col>
-              <h2>Forms</h2>
+              <H2 gutterBottom>Forms</H2>
               <ul>
                 {pages.map((pageName) => {
                   return (
