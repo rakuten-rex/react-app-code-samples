@@ -69,6 +69,11 @@ export default function Index() {
       file: 'TextFieldLabelHelperWithDefaultValue',
     },
     {
+      name: 'TextFieldLabelHelper With Customized Ref Default Focus',
+      Component: lazy(() => import('./TextFieldLabelHelperWithCustomizedRef')),
+      file: 'TextFieldLabelHelperWithCustomizedRef',
+    },
+    {
       name: 'TextFieldLabelHelper Theme',
       Component: lazy(() => import('./TextFieldLabelHelperTheme')),
       file: 'TextFieldLabelHelperTheme',
