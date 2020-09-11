@@ -33,9 +33,7 @@ export default function Home() {
         <Container>
           <Row key="breadcrumbs">
             <Col>
-              <RouterLink to={rootPath} className="rex">
-                Home
-              </RouterLink>
+              <RouterLink to={rootPath}>Home</RouterLink>
             </Col>
           </Row>
           <Row key="title">
