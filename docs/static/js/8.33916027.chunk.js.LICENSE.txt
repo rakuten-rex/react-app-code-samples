@@ -1,0 +1,44 @@
+/*
+ @license @rakuten-rex/typography v1.0.5 2020-09-11
+ BodyText1/BodyText1.production.min.js
+
+ Copyright (c) 2018-present, Rakuten, Inc.
+
+ This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
+*/
+
+/*
+ @license @rakuten-rex/typography v1.0.5 2020-09-11
+ BodyText2/BodyText2.production.min.js
+
+ Copyright (c) 2018-present, Rakuten, Inc.
+
+ This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
+*/
+
+/*
+ @license @rakuten-rex/typography v1.0.5 2020-09-11
+ Caption/Caption.production.min.js
+
+ Copyright (c) 2018-present, Rakuten, Inc.
+
+ This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
+*/
+
+/*
+ @license @rakuten-rex/typography v1.0.5 2020-09-11
+ LeadBodyText/LeadBodyText.production.min.js
+
+ Copyright (c) 2018-present, Rakuten, Inc.
+
+ This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
+*/
+
+/*
+ @license @rakuten-rex/typography v1.0.5 2020-09-11
+ Overline/Overline.production.min.js
+
+ Copyright (c) 2018-present, Rakuten, Inc.
+
+ This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
+*/

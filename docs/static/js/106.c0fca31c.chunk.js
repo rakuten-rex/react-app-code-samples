@@ -1,2 +1,0 @@
-(this["webpackJsonpreact-app-code-samples"]=this["webpackJsonpreact-app-code-samples"]||[]).push([[106],{585:function(e,t,a){"use strict";a.r(t),a.d(t,"default",(function(){return r}));var o=a(0),p=a.n(o),n=a(429),l=a.n(n);function r(){return p.a.createElement(l.a,{id:"age",label:"Label",helper:"Helper Text",placeholder:"Placeholder",options:[{text:"Option 1",value:"option_1"},{text:"Option 2",value:"option_2"},{text:"Option 3",value:"option_3"}],htmlFor:"age"})}}}]);
-//# sourceMappingURL=106.c0fca31c.chunk.js.map
