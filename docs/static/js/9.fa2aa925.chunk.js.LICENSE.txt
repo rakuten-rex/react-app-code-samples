@@ -1,0 +1,44 @@
+/*
+ @license @rakuten-rex/typography v1.0.5 2020-09-11
+ Display1/Display1.production.min.js
+
+ Copyright (c) 2018-present, Rakuten, Inc.
+
+ This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
+*/
+
+/*
+ @license @rakuten-rex/typography v1.0.5 2020-09-11
+ Display2/Display2.production.min.js
+
+ Copyright (c) 2018-present, Rakuten, Inc.
+
+ This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
+*/
+
+/*
+ @license @rakuten-rex/typography v1.0.5 2020-09-11
+ Display3/Display3.production.min.js
+
+ Copyright (c) 2018-present, Rakuten, Inc.
+
+ This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
+*/
+
+/*
+ @license @rakuten-rex/typography v1.0.5 2020-09-11
+ Display4/Display4.production.min.js
+
+ Copyright (c) 2018-present, Rakuten, Inc.
+
+ This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
+*/
+
+/*
+ @license @rakuten-rex/typography v1.0.5 2020-09-11
+ Display5/Display5.production.min.js
+
+ Copyright (c) 2018-present, Rakuten, Inc.
+
+ This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
+*/

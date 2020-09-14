@@ -1,2 +1,0 @@
-(this["webpackJsonpreact-app-code-samples"]=this["webpackJsonpreact-app-code-samples"]||[]).push([[115],{619:function(e,a,r){"use strict";r.r(a),r.d(a,"default",(function(){return s}));var t=r(0),l=r.n(t),n=r(404),p=r.n(n);function s(){return l.a.createElement(p.a,{id:"age",name:"firstname",placeholder:"Placeholder",htmlFor:"firstname",label:"Label",labelId:"labelId",helper:"Helper Text",state:"error"})}}}]);
-//# sourceMappingURL=115.147ce2cb.chunk.js.map

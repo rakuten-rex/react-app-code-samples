@@ -1,2 +1,0 @@
-(this["webpackJsonpreact-app-code-samples"]=this["webpackJsonpreact-app-code-samples"]||[]).push([[123],{629:function(e,a,l){"use strict";l.r(a),l.d(a,"default",(function(){return n}));var t=l(0),r=l.n(t),p=l(460),c=l.n(p);function n(){return r.a.createElement(c.a,{placeholder:"Placeholder",label:"Label",helper:"Helper Text",id:"age",htmlFor:"age",labelId:"labelId"})}}}]);
-//# sourceMappingURL=123.eb0721bd.chunk.js.map
