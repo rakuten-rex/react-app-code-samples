@@ -15,6 +15,7 @@ import Switch from './Switch';
 import TextField from './TextField';
 import Textarea from './Textarea';
 import Track from './Track';
+import Typography from './Typography';
 
 export const rootPath = '/react-app-code-samples';
 
@@ -37,6 +38,7 @@ export default function App() {
       <TextField />
       <Textarea />
       <Track />
+      <Typography />
     </Router>
   );
 }

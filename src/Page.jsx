@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import { rootPath } from './App';
 import { Row, Container, Col } from '@rakuten-rex/grid/Grid';
+import H1 from '@rakuten-rex/typography/H1';
 
 export default function Page(main, list) {
   return (
@@ -23,7 +24,7 @@ export default function Page(main, list) {
             </Row>
             <Row key="title">
               <Col>
-                <h1>{main}</h1>
+                <H1 gutterBottom>{main}</H1>
               </Col>
             </Row>
             <Row key="index">
@@ -65,7 +66,7 @@ export default function Page(main, list) {
                 </Row>
                 <Row key="title">
                   <Col xs="10">
-                    <h1>{name}</h1>
+                    <H1 gutterBottom>{name}</H1>
                   </Col>
                   <Col xs="2">
                     <a

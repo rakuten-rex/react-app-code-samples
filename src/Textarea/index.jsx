@@ -49,6 +49,11 @@ export default function Index() {
       file: 'TextareaLabelHelperValid',
     },
     {
+      name: 'Textarea Label Helper With Customized Ref Default Focus',
+      Component: lazy(() => import('./TextareaLabelHelperWithCustomizedRef')),
+      file: 'TextareaLabelHelperWithCustomizedRef',
+    },
+    {
       name: 'Textarea Label Helper Theme',
       Component: lazy(() => import('./TextareaLabelHelperTheme')),
       file: 'TextareaLabelHelperTheme',
