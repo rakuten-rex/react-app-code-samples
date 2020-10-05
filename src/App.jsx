@@ -10,6 +10,7 @@ import Panel from './Panel';
 import Password from './Password';
 import RadioButton from './RadioButton';
 import Select from './Select';
+import Slider from './Slider';
 import Stepper from './Stepper';
 import Switch from './Switch';
 import TextField from './TextField';
@@ -33,6 +34,7 @@ export default function App() {
       <Password />
       <RadioButton />
       <Select />
+      <Slider />
       <Stepper />
       <Switch />
       <TextField />

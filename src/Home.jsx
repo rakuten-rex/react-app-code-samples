@@ -19,6 +19,7 @@ export default function Home() {
     'Password',
     'RadioButton',
     'Select',
+    'Slider',
     'Stepper',
     'Switch',
     'TextField',
