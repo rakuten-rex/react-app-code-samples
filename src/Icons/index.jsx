@@ -10,22 +10,10 @@ export default function Index() {
       file: 'JSX',
     },
     {
-      name: 'WebFont',
-      Component: lazy(() => import('./WebFont')),
+      name: 'WebFontEmbed',
+      Component: lazy(() => import('./WebFontEmbed')),
       maxWidth: '100%',
-      file: 'WebFont',
+      file: 'WebFontEmbed',
     },
-    // {
-    //   name: 'With Box Shadow And Padding',
-    //   Component: lazy(() => import('./WithBoxShadowAndPadding')),
-    //   maxWidth: '90%',
-    //   file: 'WithBoxShadowAndPadding',
-    // },
-    // {
-    //   name: 'Theme',
-    //   Component: lazy(() => import('./Theme')),
-    //   maxWidth: '90%',
-    //   file: 'Theme',
-    // },
   ]);
 }

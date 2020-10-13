@@ -1,7 +1,7 @@
 import React from 'react';
 import Caption from '@rakuten-rex/typography/Caption';
 import '@rakuten-rex/icons/FontEmbed/FontEmbed.production.min.css';
-import './WebFont.css';
+import './WebFontEmbed.css';
 
 export default function MyComponent() {
   return (
