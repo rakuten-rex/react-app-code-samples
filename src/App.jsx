@@ -6,6 +6,7 @@ import Button from './Button';
 import Checkbox from './Checkbox';
 import FormGroup from './FormGroup';
 import Grid from './Grid';
+import Icons from './Icons';
 import Panel from './Panel';
 import Password from './Password';
 import RadioButton from './RadioButton';
@@ -30,6 +31,7 @@ export default function App() {
       <Checkbox />
       <FormGroup />
       <Grid />
+      <Icons />
       <Panel />
       <Password />
       <RadioButton />

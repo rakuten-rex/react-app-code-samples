@@ -15,6 +15,7 @@ export default function Home() {
     'Checkbox',
     'FormGroup',
     'Grid',
+    'Icons',
     'Panel',
     'Password',
     'RadioButton',
