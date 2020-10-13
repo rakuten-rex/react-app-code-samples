@@ -15,15 +15,11 @@
   text-align: center;
   border-radius: 0.5rem;
 }
-  
-.icon-box {
-  font-size: 2em
-}
 
 .icon-box span {
   font-size: 2em
 }
 
 [class^="rex-icon-"] {
-  fill: #000
+  color: #000
 }

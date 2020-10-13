@@ -1,5 +1,4 @@
 import React from 'react';
-import Icon from '@rakuten-rex/icons';
 import ArrowDown from '@rakuten-rex/icons/ArrowDown';
 import ArrowLeft from '@rakuten-rex/icons/ArrowLeft';
 import ArrowRight from '@rakuten-rex/icons/ArrowRight';
@@ -214,7 +213,7 @@ import ZoomOutFilled from '@rakuten-rex/icons/ZoomOutFilled';
 import ZoomOutOutlined from '@rakuten-rex/icons/ZoomOutOutlined';
 
 import Caption from '@rakuten-rex/typography/Caption';
-import './style.css';
+import './jsx.css';
 
 export default function MyComponent() {
   return (
@@ -226,33 +225,23 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-ArrowLeft">
           <ArrowLeft />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<ArrowLeft />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<ArrowLeft />`}</Caption>
         </div>
         <div className="icon-box" key="icon-ArrowRight">
           <ArrowRight />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<ArrowRight />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<ArrowRight />`}</Caption>
         </div>
         <div className="icon-box" key="icon-ArrowUp">
           <ArrowUp />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<ArrowUp />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<ArrowUp />`}</Caption>
         </div>
         <div className="icon-box" key="icon-BanFilled">
           <BanFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<BanFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<BanFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-BanOutlined">
           <BanOutlined />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<BanOutlined />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<BanOutlined />`}</Caption>
         </div>
         <div className="icon-box" key="icon-BarcodeFilled">
           <BarcodeFilled />
@@ -292,20 +281,16 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-BusFilled">
           <BusFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<BusFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<BusFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-BusOutlined">
           <BusOutlined />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<BusOutlined />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<BusOutlined />`}</Caption>
         </div>
         <div className="icon-box" key="icon-CalculatorFilled">
           <CalculatorFilled />
           <Caption style={{ textAlign: 'center' }}>
-           {` <CalculatorFilled />`}
+            {` <CalculatorFilled />`}
           </Caption>
         </div>
         <div className="icon-box" key="icon-CalculatorOutlined">
@@ -323,7 +308,7 @@ export default function MyComponent() {
         <div className="icon-box" key="icon-CalendarOutlined">
           <CalendarOutlined />
           <Caption style={{ textAlign: 'center' }}>
-           {` <CalendarOutlined />`}
+            {` <CalendarOutlined />`}
           </Caption>
         </div>
         <div className="icon-box" key="icon-CampaignFilled">
@@ -335,32 +320,24 @@ export default function MyComponent() {
         <div className="icon-box" key="icon-CampaignOutlined">
           <CampaignOutlined />
           <Caption style={{ textAlign: 'center' }}>
-           {` <CampaignOutlined />`}
+            {` <CampaignOutlined />`}
           </Caption>
         </div>
         <div className="icon-box" key="icon-CarFilled">
           <CarFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<CarFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<CarFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-CarOutlined">
           <CarOutlined />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<CarOutlined />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<CarOutlined />`}</Caption>
         </div>
         <div className="icon-box" key="icon-ChangeOrder">
           <ChangeOrder />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<ChangeOrder />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<ChangeOrder />`}</Caption>
         </div>
         <div className="icon-box" key="icon-ChatFilled">
           <ChatFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<ChatFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<ChatFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-ChatOutlined">
           <ChatOutlined />
@@ -370,21 +347,15 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-Check">
           <Check />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<Check />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<Check />`}</Caption>
         </div>
         <div className="icon-box" key="icon-ChevronDown">
           <ChevronDown />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<ChevronDown />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<ChevronDown />`}</Caption>
         </div>
         <div className="icon-box" key="icon-ChevronLeft">
           <ChevronLeft />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<ChevronLeft />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<ChevronLeft />`}</Caption>
         </div>
         <div className="icon-box" key="icon-ChevronRight">
           <ChevronRight />
@@ -394,9 +365,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-ChevronUp">
           <ChevronUp />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<ChevronUp />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<ChevronUp />`}</Caption>
         </div>
         <div className="icon-box" key="icon-CircleArrowDown">
           <CircleArrowDown />
@@ -424,9 +393,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-Close">
           <Close />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<Close />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<Close />`}</Caption>
         </div>
         <div className="icon-box" key="icon-CloseAccountFilled">
           <CloseAccountFilled />
@@ -443,7 +410,7 @@ export default function MyComponent() {
         <div className="icon-box" key="icon-CloudFilled">
           <CloudFilled />
           <Caption style={{ textAlign: 'center' }}>
-           {` <CloudFilled />`}
+            {` <CloudFilled />`}
           </Caption>
         </div>
         <div className="icon-box" key="icon-CloudOutlined">
@@ -485,7 +452,7 @@ export default function MyComponent() {
         <div className="icon-box" key="icon-CompareOutlined">
           <CompareOutlined />
           <Caption style={{ textAlign: 'center' }}>
-           {` <CompareOutlined />`}
+            {` <CompareOutlined />`}
           </Caption>
         </div>
         <div className="icon-box" key="icon-CouponFilled">
@@ -569,7 +536,7 @@ export default function MyComponent() {
         <div className="icon-box" key="icon-DotsVertical">
           <DotsVertical />
           <Caption style={{ textAlign: 'center' }}>
-           {` <DotsVertical />`}
+            {` <DotsVertical />`}
           </Caption>
         </div>
         <div className="icon-box" key="icon-DownloadFilled">
@@ -586,9 +553,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-EditFilled">
           <EditFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<EditFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<EditFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-EditOutlined">
           <EditOutlined />
@@ -605,7 +570,7 @@ export default function MyComponent() {
         <div className="icon-box" key="icon-EyeBanFilled">
           <EyeBanFilled />
           <Caption style={{ textAlign: 'center' }}>
-           {` <EyeBanFilled />`}
+            {` <EyeBanFilled />`}
           </Caption>
         </div>
         <div className="icon-box" key="icon-EyeBanOutlined">
@@ -616,15 +581,11 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-EyeFilled">
           <EyeFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<EyeFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<EyeFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-EyeOutlined">
           <EyeOutlined />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<EyeOutlined />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<EyeOutlined />`}</Caption>
         </div>
         <div className="icon-box" key="icon-FavouritesFilled">
           <FavouritesFilled />
@@ -640,9 +601,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-FerryFilled">
           <FerryFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<FerryFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<FerryFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-FerryOutlined">
           <FerryOutlined />
@@ -676,9 +635,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-GiftFilled">
           <GiftFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<GiftFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<GiftFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-GiftOutlined">
           <GiftOutlined />
@@ -688,9 +645,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-HelpFilled">
           <HelpFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<HelpFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<HelpFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-HelpOutlined">
           <HelpOutlined />
@@ -700,9 +655,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-HomeFilled">
           <HomeFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<HomeFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<HomeFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-HomeOutlined">
           <HomeOutlined />
@@ -712,9 +665,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-ImageFilled">
           <ImageFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<ImageFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<ImageFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-ImageOutlined">
           <ImageOutlined />
@@ -724,9 +675,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-InfoFilled">
           <InfoFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<InfoFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<InfoFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-InfoOutlined">
           <InfoOutlined />
@@ -772,9 +721,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-LikeFilled">
           <LikeFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<LikeFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<LikeFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-LikeOutlined">
           <LikeOutlined />
@@ -784,9 +731,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-ListFilled">
           <ListFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<ListFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<ListFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-ListOutlined">
           <ListOutlined />
@@ -796,9 +741,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-Loading">
           <Loading />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<Loading />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<Loading />`}</Caption>
         </div>
         <div className="icon-box" key="icon-LocationFilled">
           <LocationFilled />
@@ -814,15 +757,11 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-Login">
           <Login />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<Login />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<Login />`}</Caption>
         </div>
         <div className="icon-box" key="icon-Logout">
           <Logout />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<Logout />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<Logout />`}</Caption>
         </div>
         <div className="icon-box" key="icon-LuckyKujiFilled">
           <LuckyKujiFilled />
@@ -838,9 +777,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-MailFilled">
           <MailFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<MailFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<MailFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-MailOutlined">
           <MailOutlined />
@@ -850,27 +787,19 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-MapFilled">
           <MapFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<MapFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<MapFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-MapOutlined">
           <MapOutlined />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<MapOutlined />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<MapOutlined />`}</Caption>
         </div>
         <div className="icon-box" key="icon-Menu">
           <Menu />
-          <Caption style={{ textAlign: 'center' }}>
-           {` <Menu />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{` <Menu />`}</Caption>
         </div>
         <div className="icon-box" key="icon-Minus">
           <Minus />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<Minus />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<Minus />`}</Caption>
         </div>
         <div className="icon-box" key="icon-MobileFilled">
           <MobileFilled />
@@ -886,9 +815,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-MovieFilled">
           <MovieFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<MovieFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<MovieFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-MovieOutlined">
           <MovieOutlined />
@@ -910,9 +837,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-NewUser">
           <NewUser />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<NewUser />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<NewUser />`}</Caption>
         </div>
         <div className="icon-box" key="icon-NewWindowFilled">
           <NewWindowFilled />
@@ -928,9 +853,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-NewsFilled">
           <NewsFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<NewsFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<NewsFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-NewsOutlined">
           <NewsOutlined />
@@ -964,33 +887,25 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-PaintFilled">
           <PaintFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<PaintFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<PaintFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-PaintOutlined">
           <PaintOutlined />
           <Caption style={{ textAlign: 'center' }}>
-           {` <PaintOutlined />`}
+            {` <PaintOutlined />`}
           </Caption>
         </div>
         <div className="icon-box" key="icon-PdfFilled">
           <PdfFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<PdfFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<PdfFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-PdfOutlined">
           <PdfOutlined />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<PdfOutlined />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<PdfOutlined />`}</Caption>
         </div>
         <div className="icon-box" key="icon-PhoneFilled">
           <PhoneFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<PhoneFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<PhoneFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-PhoneOutlined">
           <PhoneOutlined />
@@ -1012,21 +927,15 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-PinFilled">
           <PinFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<PinFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<PinFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-PinOutlined">
           <PinOutlined />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<PinOutlined />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<PinOutlined />`}</Caption>
         </div>
         <div className="icon-box" key="icon-PlaneFilled">
           <PlaneFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<PlaneFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<PlaneFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-PlaneOutlined">
           <PlaneOutlined />
@@ -1036,15 +945,11 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-Plus">
           <Plus />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<Plus />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<Plus />`}</Caption>
         </div>
         <div className="icon-box" key="icon-PointFilled">
           <PointFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<PointFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<PointFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-PointOutlined">
           <PointOutlined />
@@ -1066,9 +971,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-PrintFilled">
           <PrintFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<PrintFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<PrintFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-PrintOutlined">
           <PrintOutlined />
@@ -1085,7 +988,7 @@ export default function MyComponent() {
         <div className="icon-box" key="icon-PurchaseHistoryOutlined">
           <PurchaseHistoryOutlined />
           <Caption style={{ textAlign: 'center' }}>
-           {` <PurchaseHistoryOutlined />`}
+            {` <PurchaseHistoryOutlined />`}
           </Caption>
         </div>
         <div className="icon-box" key="icon-PushNotificationFilled">
@@ -1132,9 +1035,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-RatingHalf">
           <RatingHalf />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<RatingHalf />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<RatingHalf />`}</Caption>
         </div>
         <div className="icon-box" key="icon-RatingOutlined">
           <RatingOutlined />
@@ -1144,9 +1045,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-Refresh">
           <Refresh />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<Refresh />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<Refresh />`}</Caption>
         </div>
         <div className="icon-box" key="icon-RegisterAccountFilled">
           <RegisterAccountFilled />
@@ -1174,27 +1073,19 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-RssFilled">
           <RssFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<RssFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<RssFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-RssOutlined">
           <RssOutlined />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<RssOutlined />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<RssOutlined />`}</Caption>
         </div>
         <div className="icon-box" key="icon-RssSymbol">
           <RssSymbol />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<RssSymbol />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<RssSymbol />`}</Caption>
         </div>
         <div className="icon-box" key="icon-SaveFilled">
           <SaveFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<SaveFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<SaveFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-SaveOutlined">
           <SaveOutlined />
@@ -1204,9 +1095,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-Search">
           <Search />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<Search />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<Search />`}</Caption>
         </div>
         <div className="icon-box" key="icon-SearchHistoryFilled">
           <SearchHistoryFilled />
@@ -1223,7 +1112,7 @@ export default function MyComponent() {
         <div className="icon-box" key="icon-SecurityFilled">
           <SecurityFilled />
           <Caption style={{ textAlign: 'center' }}>
-           {` <SecurityFilled />`}
+            {` <SecurityFilled />`}
           </Caption>
         </div>
         <div className="icon-box" key="icon-SecurityOutlined">
@@ -1246,9 +1135,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-ShareFilled">
           <ShareFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<ShareFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<ShareFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-ShareOutlined">
           <ShareOutlined />
@@ -1270,9 +1157,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-ShopFilled">
           <ShopFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<ShopFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<ShopFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-ShopOutlined">
           <ShopOutlined />
@@ -1349,26 +1234,20 @@ export default function MyComponent() {
         <div className="icon-box" key="icon-TabletOutlined">
           <TabletOutlined />
           <Caption style={{ textAlign: 'center' }}>
-           {` <TabletOutlined />`}
+            {` <TabletOutlined />`}
           </Caption>
         </div>
         <div className="icon-box" key="icon-TagFilled">
           <TagFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<TagFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<TagFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-TagOutlined">
           <TagOutlined />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<TagOutlined />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<TagOutlined />`}</Caption>
         </div>
         <div className="icon-box" key="icon-TimeFilled">
           <TimeFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<TimeFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<TimeFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-TimeOutlined">
           <TimeOutlined />
@@ -1379,7 +1258,7 @@ export default function MyComponent() {
         <div className="icon-box" key="icon-TrainFilled">
           <TrainFilled />
           <Caption style={{ textAlign: 'center' }}>
-           {` <TrainFilled />`}
+            {` <TrainFilled />`}
           </Caption>
         </div>
         <div className="icon-box" key="icon-TrainOutlined">
@@ -1397,14 +1276,12 @@ export default function MyComponent() {
         <div className="icon-box" key="icon-UploadOutlined">
           <UploadOutlined />
           <Caption style={{ textAlign: 'center' }}>
-           {` <UploadOutlined />`}
+            {` <UploadOutlined />`}
           </Caption>
         </div>
         <div className="icon-box" key="icon-UserFilled">
           <UserFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<UserFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<UserFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-UserOutlined">
           <UserOutlined />
@@ -1426,9 +1303,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-Walking">
           <Walking />
-          <Caption style={{ textAlign: 'center' }}>
-           {` <Walking />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{` <Walking />`}</Caption>
         </div>
         <div className="icon-box" key="icon-WarningFilled">
           <WarningFilled />
@@ -1444,9 +1319,7 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-WorldFilled">
           <WorldFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<WorldFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<WorldFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-WorldOutlined">
           <WorldOutlined />
@@ -1456,15 +1329,11 @@ export default function MyComponent() {
         </div>
         <div className="icon-box" key="icon-ZipFilled">
           <ZipFilled />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<ZipFilled />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<ZipFilled />`}</Caption>
         </div>
         <div className="icon-box" key="icon-ZipOutlined">
           <ZipOutlined />
-          <Caption style={{ textAlign: 'center' }}>
-            {`<ZipOutlined />`}
-          </Caption>
+          <Caption style={{ textAlign: 'center' }}>{`<ZipOutlined />`}</Caption>
         </div>
         <div className="icon-box" key="icon-ZoomInFilled">
           <ZoomInFilled />

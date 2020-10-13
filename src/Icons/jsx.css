@@ -1,0 +1,25 @@
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.icon-box {
+  margin: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  width: 14rem;
+  height: auto;
+  min-height: 4rem;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.icon-box {
+  font-size: 2em
+}
+
+[class^="rex-icon-"] {
+  fill: #000
+}
